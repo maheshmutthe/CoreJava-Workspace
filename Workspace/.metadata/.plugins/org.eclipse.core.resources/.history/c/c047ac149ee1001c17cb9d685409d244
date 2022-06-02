@@ -1,0 +1,25 @@
+package exception05;
+
+public class Email {
+
+		public static void checkPass(String email) throws InvalidNumberException{
+			boolean result = email.matches("[_A^-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$");
+			if (!result) {
+				InvalidNumberException e = new InvalidNumberException("Invalid Email: "+email);
+				throw e;
+			}
+		}
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			String email = "9988776655";
+			try { 
+				checkPass(email);
+				System.out.println("Valid Mobile: "+email);
+			}catch (InvalidNumberException e) {
+				System.out.println(e.getMessage());
+			}
+			}
+
+	}
+

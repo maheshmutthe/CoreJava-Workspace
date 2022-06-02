@@ -1,0 +1,41 @@
+package oop05;
+class Account{
+	private String accountNumber;
+	private String acholderName;
+	private double balance;
+	public Account(String accountNumber, String acholderName, double balance) {
+		this.accountNumber = accountNumber;
+		this.acholderName = acholderName;
+		this.balance = balance;	
+	}
+	public void getAccountDetails(){
+		System.out.println("accountNumber is "+accountNumber);
+		System.out.println("acholderName is "+acholderName);
+		System.out.println("balance is "+balance);
+	}
+	
+}
+
+class Saving{
+	final static private double rateOfInterest = 9.2;
+	public Saving () {
+		System.out.println("This accounts rate of interest is "+ rateOfInterest);
+	}
+	
+}
+class Current{
+	final static private double overdraft = 300000;
+	public Current() {
+		System.out.println("Overdraft for this account "+overdraft);
+	}
+}
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account obj1 = new Account("998877665544", "Ram", 98777.9);
+		
+	}
+
+}

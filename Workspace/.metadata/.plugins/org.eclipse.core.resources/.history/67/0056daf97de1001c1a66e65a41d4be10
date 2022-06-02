@@ -1,0 +1,21 @@
+package Qset2;
+
+class Main extends Exception {
+}
+
+public class Main2 {
+static public void meth1() throws First{
+System.out.println("meth1 Called");
+throw new First();
+}
+
+	public static void main(String args[]) { 
+		try {
+			Main2.meth1();
+		} catch (First t) {
+			System.out.println("Got the Test Exception");
+		} finally {
+			System.out.println("Inside finally block ");
+		}
+	}
+}

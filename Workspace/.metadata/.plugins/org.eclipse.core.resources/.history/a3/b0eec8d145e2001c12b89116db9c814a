@@ -1,0 +1,22 @@
+package collection02;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student obj1 = new Student(100, "Pranita", 90);
+		Student obj2 = new Student(101, "Omkar", 80);
+		Student obj3 = new Student(101, "Omkar", 80);
+		
+		HashSet<Student> set = new HashSet<>();
+		set.add(obj1);
+		set.add(obj2);
+		set.add(obj3);
+		
+		System.out.println(set);
+
+	}
+
+}

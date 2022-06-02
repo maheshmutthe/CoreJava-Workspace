@@ -1,0 +1,3 @@
+when object get destoyed at that time 
+
+Garbage collector in java who will occupies the null object(not refferd by any active reference)

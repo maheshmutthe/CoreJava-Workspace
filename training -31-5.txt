@@ -1,0 +1,31 @@
+Binding will happen at compile time Connecting method call to method body is called as Binding!
+
+Acces specifier should be same or stonger((strongest)public->protected-> default-> private)
+
+abstract->
+
+we can not create object of an abstract class
+
+abstract method should also have abstract class
+
+abstract method must be overriden in sub class
+
+abstract method should not have body
+
+if abstract do not override in sub class it should make as abstract method 
+
+we can create a object of child class which constructor present in abstract class.
+
+final->
+can be decleare outside or inside a method or block
+once decleare value cannot be change
+
+Abstract class and interfaces
+-> we cant create object of both.
+-> both can have abstract method(from java 8 interfaces can also have body)
+-> subclass should override abstact method otherwise make class as abstact
+
+Abstract class vs interfaces
+-> we can have constructor in abstrcat class but can't have any interface.
+-> abstract class can extend only one class where interface can implement multiple interfaces.
+-> identifier decleare in abstract is var and in interface it will be public static final/(const)

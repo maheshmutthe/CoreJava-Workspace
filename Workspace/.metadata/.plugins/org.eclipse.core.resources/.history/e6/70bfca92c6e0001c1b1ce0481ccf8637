@@ -1,0 +1,27 @@
+package lab;
+public class StudentClass {
+
+	private int studentId;
+	private String studentName;
+	private String contactNumber;
+	private String course;	
+	
+	public StudentClass(int studentId, String studentName, String contactNumber, String course) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.contactNumber = contactNumber;
+		this.course = course;
+	}
+
+	public void studentDetails() {
+		System.out.println("studentId=" + studentId + ", studentName=" + studentName + ", contactNumber="
+				+ contactNumber + ", course=" + course);
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

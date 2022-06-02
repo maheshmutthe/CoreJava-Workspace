@@ -1,0 +1,36 @@
+package lab;
+
+public class BookClass {
+	
+	private int isbn;
+	private String title;
+	private String author;
+	private double price;
+	
+	public BookClass(int isbn, String title, String author, double price) {
+		super();
+		this.isbn = isbn;
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
+	
+	public String displaydetails() {
+		return "BookClass [isbn=" + isbn + ", title=" + title + ", author=" + author + ", price=" + price + "]";
+	}
+	public String discountedPrice() {
+		return "BookClass [isbn=" + isbn + ", title=" + title + ", author=" + author + ", price=" + price*(2/100) + "]";
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BookClass java = new BookClass(1, "Java", "James Gosling", 900);
+		java.displaydetails();
+		java.discountedPrice();
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package exception05;
+
+public class Email {
+
+		public static void checkPass(String email) throws InvalidEmailException{
+			boolean result = email.matches("^(?=.{1,64}@)[A-Za-z0-9_-+]+(\\\\.[A-Za-z0-9_-+]+)*@[^-][A-Za-z0-9-+]+(\\\\.[A-Za-z0-9-+]+)*(\\\\.[A-Za-z]{2,})$\r\n"
+					+ "\r\n"
+					+ "");
+			if (!result) {
+				InvalidEmailException e = new InvalidEmailException("Invalid Email: "+email);
+				throw e;
+			}
+		}
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			String email = "mahesh1@gmail.com";
+			try { 
+				checkPass(email);
+				System.out.println("Valid Email: "+email);
+			}catch (InvalidEmailException e) {
+				System.out.println(e.getMessage());
+			}
+			}
+
+	}
+

@@ -1,0 +1,19 @@
+package oop02;
+
+import oop01.Person;
+
+public class PersonApp {
+
+	Person obj1 = new Person();
+	obj1.firstName = "Makrand";
+	obj1.lastName = "Bhoir";
+	obj1.city = "Mumbai";
+	
+	Person obj2 = new Person();
+	obj2.firstName = "Shailes";
+	obj2.lastName = "Dubey";
+	obj2.city = "Mumbai";
+	
+	obj1.show();
+	obj2.show();
+}

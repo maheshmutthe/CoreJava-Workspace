@@ -1,0 +1,28 @@
+Whatever public class in the file that should be the name of the file
+we can have multiple class in a file but only 1 should be public 
+& public class file should be name of the file if it presents
+
+in psmv public static is interchangable
+
+we can't declare private & static variable in local var but applicable in class(instance var)
+
+
+Abstraction -> by Mr. Grady buch
+Taking necessary detail from the object as per business(Application) perspective
+Counted(completed) while planning before coding
+
+
+Encapsulation -> 
+
+
+(Wrapping data Member & Member function in a class)
+
+this ->local varibale will get refered to the current object
+
+static block(not method)-> static block is used to initialize static data member
+, static block executes only once.
+
+we can access static member of the class can access in non static & static block
+but we can not acces non static member of the class in static block or method
+
+Note -> Why java do not support multiple inheritance.

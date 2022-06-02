@@ -1,0 +1,5 @@
+package exception05;
+
+public class InvalidNumberException {
+
+}

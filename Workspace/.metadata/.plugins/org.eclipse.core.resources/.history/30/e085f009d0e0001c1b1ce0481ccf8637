@@ -1,0 +1,28 @@
+package lab;
+
+public class VehicleClass {
+	private int regNo;
+	private String brand;
+	private int price;
+	private double mileage;
+	
+
+	public VehicleClass(int regNo, String brand, int price, double mileage) {
+		super();
+		this.regNo = regNo;
+		this.brand = brand;
+		//this.price = price;
+		this.mileage = mileage;
+	}
+	int getPrice(int price) {
+		this.price=price;
+		return price;
+	}
+
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

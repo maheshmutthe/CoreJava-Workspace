@@ -1,0 +1,17 @@
+package oop02;
+
+class A{
+	public void print() {
+		System.out.println("class A");
+	}
+}
+
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

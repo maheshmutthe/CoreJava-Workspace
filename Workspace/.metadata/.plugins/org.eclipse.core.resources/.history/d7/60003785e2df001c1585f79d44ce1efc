@@ -1,0 +1,22 @@
+package oop01;
+
+public class Person {
+	//instance variable
+
+	private String firstName;
+	private String lastName;
+	private String city;
+	
+	public void show() {
+		System.out.println("First Name "+firstName);
+		System.out.println("Last Name "+lastName);
+		System.out.println("City Name "+city);
+	}
+	
+	public static void main(String[] args) {
+		// Local Variable 
+		int x,y;
+		
+	}
+
+}
