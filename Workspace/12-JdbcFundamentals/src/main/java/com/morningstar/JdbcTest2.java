@@ -3,6 +3,10 @@ package com.morningstar;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+<<<<<<< HEAD
+import java.sql.SQLException;
+=======
+>>>>>>> 9af12520e962b38d6fb399e9b3f003747bd0b389
 import java.sql.Statement;
 
 public class JdbcTest2 {
@@ -22,11 +26,22 @@ public class JdbcTest2 {
 				System.out.println("Employee_Id :"+EmployeeId);
 				System.out.println("Employee_Name :"+employeename);
 				System.out.println("Salary :"+ salary);
+<<<<<<< HEAD
+				System.out.println("--------------------------------------");
+			}
+			
+		} catch (ClassNotFoundException e) {
+			System.out.println("Driver class not found");
+		}
+		catch (SQLException e) {
+			System.out.println("Unable to connect to databse");
+=======
 			}
 			
 		} catch (ClassNotFoundException e | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+>>>>>>> 9af12520e962b38d6fb399e9b3f003747bd0b389
 		}
 		
 		

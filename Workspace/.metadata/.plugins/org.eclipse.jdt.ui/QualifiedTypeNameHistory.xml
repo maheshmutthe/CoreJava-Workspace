@@ -29,6 +29,7 @@
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="org.mockito.Mock"/>
     <fullyQualifiedTypeName name="com.morningstar.dao.OrderDao"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
     <fullyQualifiedTypeName name="com.morningstar.service.OrderServiceImpl"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
@@ -36,4 +37,23 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+=======
+<<<<<<< HEAD
+    <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.morningstar.model.Student"/>
+    <fullyQualifiedTypeName name="com.morningstar.service.StudentService"/>
+    <fullyQualifiedTypeName name="com.morningstar.service.StudentServiceImpl"/>
+    <fullyQualifiedTypeName name="com.morningstar.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.morningstar.dao.StudentDaoImpl"/>
+=======
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
+>>>>>>> 9af12520e962b38d6fb399e9b3f003747bd0b389
+>>>>>>> 62a10d3569e505d92901a389f9ef73fd3b035b97
 </qualifiedTypeNameHistroy>
