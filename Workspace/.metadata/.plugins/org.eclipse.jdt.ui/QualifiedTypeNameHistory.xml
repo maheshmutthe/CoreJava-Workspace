@@ -17,4 +17,18 @@
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="com.morningstar.Calculator"/>
+    <fullyQualifiedTypeName name="com.morningstar.Demo"/>
+    <fullyQualifiedTypeName name="Lab.HelloWorld"/>
+    <fullyQualifiedTypeName name="Lab.Assignment2"/>
+    <fullyQualifiedTypeName name="org.junit.After"/>
+    <fullyQualifiedTypeName name="lab2.program04"/>
+    <fullyQualifiedTypeName name="com.morningstar.model.Order"/>
+    <fullyQualifiedTypeName name="com.morningstar.exception.OrderException"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="org.mockito.Mock"/>
+    <fullyQualifiedTypeName name="com.morningstar.dao.OrderDao"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
 </qualifiedTypeNameHistroy>
