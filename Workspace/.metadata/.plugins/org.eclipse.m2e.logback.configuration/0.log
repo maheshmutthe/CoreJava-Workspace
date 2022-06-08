@@ -735,3 +735,7 @@
 2022-06-08 09:44:59,001 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12-JdbcFundamentals/src/main/java
 2022-06-08 09:44:59,004 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12-JdbcFundamentals/src/test/java
 2022-06-08 09:44:59,061 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-06-08 09:44:59,471 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 09:44:59,472 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mmutthe\NewTraining\CoreJava-Workspace\Workspace\12-JdbcFundamentals\src\main\resources
+2022-06-08 09:44:59,475 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 09:44:59,475 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mmutthe\NewTraining\CoreJava-Workspace\Workspace\12-JdbcFundamentals\src\test\resources
