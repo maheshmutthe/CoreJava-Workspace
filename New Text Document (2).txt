@@ -1,0 +1,3 @@
+mvn archetype:generate -DgroupId=com.morningstar -DartifactId=12-JdbcFundamentals -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+java -cp target/ packagename 

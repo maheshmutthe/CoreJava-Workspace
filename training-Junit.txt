@@ -1,0 +1,11 @@
+Junit is a unit testing framework for java
+
+unit testing-> Tetsing smallest part of your application(Method) by writing method in Junit.
+
+@Test(Cumpolsory to write)-  to decleare this is a test case(code)
+
+@Before- before every test cases
+
+@After - After every test cases
+
+
