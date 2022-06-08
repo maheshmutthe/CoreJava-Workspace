@@ -29,6 +29,7 @@
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="org.mockito.Mock"/>
     <fullyQualifiedTypeName name="com.morningstar.dao.OrderDao"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -41,4 +42,8 @@
     <fullyQualifiedTypeName name="com.morningstar.service.StudentServiceImpl"/>
     <fullyQualifiedTypeName name="com.morningstar.dao.StudentDao"/>
     <fullyQualifiedTypeName name="com.morningstar.dao.StudentDaoImpl"/>
+=======
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
+>>>>>>> 9af12520e962b38d6fb399e9b3f003747bd0b389
 </qualifiedTypeNameHistroy>
