@@ -14,7 +14,7 @@ public class App
     	StudentDao studentDao = new StudentDaoImpl();
     	service.setDao(studentDao);
     	
-    	Student student = new Student(100, "Mahesh", 95);
+    	Student student = new Student(103, "Harshal", 79);
     	boolean result = service.addStudent(student);
     	
     	if(result)

@@ -1,6 +1,7 @@
 package com.morningstar.service;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import com.morningstar.dao.StudentDao;
 import com.morningstar.dao.StudentDaoImpl;
@@ -40,7 +41,8 @@ public class StudentServiceImpl implements StudentService {
 			e.printStackTrace();
 			
 		}
-		return false;	}
+		return false;	
+	}
 
 	@Override
 	public Student findByStudentId(int StudentId) {
@@ -54,5 +56,18 @@ public class StudentServiceImpl implements StudentService {
 		}
 		return student;
 		}
+
+	@Override
+	public List<Student> findAllList() {
+		List<Student> list = null;
+		try {
+			list = dao.readAllStudents();
+		}	catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+	
+		return list;
+	}
 
 }

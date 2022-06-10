@@ -1,0 +1,10 @@
+Sql
+Employee Table
+
+Create Table Employee
+(
+	Employee_Id Number(5) Primary Key,
+	Employee_Name varchar2(50) not null,
+	Employee_Salary Number(9),
+	Department_Id Number(5)
+);
